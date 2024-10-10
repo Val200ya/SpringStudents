@@ -31,7 +31,7 @@ public class StudentController {
     }
 
     @PutMapping("update_student")
-    public Student updateStudent(@RequestBod Student student) {
+    public Student updateStudent(@RequestBody Student student) {
         return service.updateStudent(student);
     }
 
